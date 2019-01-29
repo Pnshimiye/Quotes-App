@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div>
     <div class="row">
             <form (ngSubmit)='submitQuote()'#quoteForm='ngForm'>
             <!-- Author form -->
@@ -6,30 +6,20 @@
                 <label for="Author">Author</label>
                 <input type="text"  class="form-control" id="Author" [(ngModel)]="newQuote.Author" name="Author" #name="ngModel" required>
                 
-                <div [hidden]="Author|| Author.pristine" class="alert alert-danger">
-                    <p> Author is Required</p>
-                    
-                </div>
+                
             </div>
             <!-- -Quote input --> 
             <div class="form-group">
                 <label for="quote">Quote</label>
                 <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.Narration" name="description" #description="ngModel" required></textarea>
-                <div [hidden]="quote.valid ||quote.pristine" class="alert alert-danger">
-
-                    <p> The Quote is Required</p>                    
-                </div>
+                
                 
             </div>
 
             <div class="form-group">
                     <label for="postedby">Posted By:</label>
                     <textarea class="form-control" id="postedby" rows="1" [(ngModel)]="newQuote.Postedby" name="postedby" #description="ngModel" required></textarea>
-                    <div [hidden]="postedby.valid ||postedby.pristine" class="alert alert-danger">
-    
-                        <p> The Name of the Person who posted this Quote is Required</p>                    
-                    </div>
-                    
+                   
                 </div>
        
             

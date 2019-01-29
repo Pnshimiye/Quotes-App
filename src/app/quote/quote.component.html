@@ -12,7 +12,7 @@
   <ul>
     
       <div *ngFor='let quote of quotes;let i = index'>
-          <li >{{quote.Author}}</li>
+          <h4>{{quote.Author}}</h4>
           <button  (click)='toogleDetails(i)'>Toggle Quote Details</button>
   
           <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isViewed)= 'viewQuote($event,i)' (isDownvoted)= 'downVote($event,i)' (isUpvoted)= 'upVote($event,i)'></app-quote-details>
