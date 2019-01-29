@@ -7,11 +7,11 @@ import{Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes= [
-    new Quote('Albert Einstein','Imagination is more important than knowledge', 'Pauline Nshimiye',0,0),
-    new Quote('Shakespeare','If music be the food of love, play on','Pauline Nshimiye',0,0),
-    new Quote('Henry Ford','Obstacles are those frightful things you see when you take your eyes off the goal','Pauline Nshimiye',0,0),
-    new Quote(' Socrates','The life which is unexamined is not worth living','Pauline Nshimiye',0,0),
-    new Quote(' M.K. Gandhi','Live as if you were to die tomorrow. Learn as if you were to live forever','Pauline Nshimiye',0,0),
+    new Quote('Albert Einstein','Imagination is more important than knowledge', 'Pauline Nshimiye',0,0, new Date(1/29/2019)),
+    new Quote('Shakespeare','If music be the food of love, play on','Pauline Nshimiye',0,0, new Date(1/29/2019)),
+    new Quote('Henry Ford','Obstacles are those frightful things you see when you take your eyes off the goal','Pauline Nshimiye',0,0, new Date(1/29/2019)),
+    new Quote(' Socrates','The life which is unexamined is not worth living','Pauline Nshimiye',0,0, new Date(1/29/2019)),
+    new Quote(' M.K. Gandhi','Live as if you were to die tomorrow. Learn as if you were to live forever','Pauline Nshimiye',0,0, new Date(1/29/2019)),
 
 ]
 toogleDetails(index){

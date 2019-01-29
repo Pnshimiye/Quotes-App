@@ -1,5 +1,16 @@
 # QuotesApp
 
+## Description
+
+This project is about making an application where one finds a few quotes and can give them votes(positive or negative).
+The user is also able to add their own votes and still upvote or downvote.
+the user ca delete  any project.
+## Author
+
+This Application was developped by Pauline Nshimiye  a student at Morings School.
+
+## Language and framework
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Development server
@@ -14,14 +25,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Github
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This application is deployed on github: https://pnshimiye.github.io/Quotes-App/
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

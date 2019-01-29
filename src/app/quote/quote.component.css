@@ -1,8 +1,11 @@
-.authorcase{
-  background-color: rgb(215, 194, 235)
+#authorcase{
+  background-color: rgb(189, 189, 189);;
+  margin-left:200px;
+  margin-right:200px;
+  border:3px rgb(83, 43, 73)
 }
 .container{
-  background-color: pink;
+  background-color: rgb(189, 189, 189);
 }
 /* #authorcase{
   background-color: azure;
