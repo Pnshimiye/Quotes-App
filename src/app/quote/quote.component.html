@@ -11,7 +11,7 @@
      
         <ul>
     
-        <div *ngFor='let quote of quotes;let i = index'>
+        <div  id= "display"*ngFor='let quote of quotes;let i = index'>
            <h4 id='authorcase'>{{quote.Author}}</h4>
            <button  (click)='toogleDetails(i)'>Toggle Quote Details</button>
   
