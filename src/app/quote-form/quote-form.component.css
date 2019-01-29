@@ -9,7 +9,10 @@ body{
   margin-right:auto;
 }
 .form-control{
-  background-color: rgb(232, 212, 238);
-  margin-left:200px;
+  background-color: rgb(208, 186, 214);
+  margin-left:250px;
   margin-right: 200px;
+}
+#add{
+  background-color:rgb(227, 186, 246) 
 }

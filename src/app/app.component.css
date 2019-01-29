@@ -16,3 +16,8 @@
   background-size: cover;
   height:600px;
 } */
+
+@import "bourbon";
+html {
+  min-height: 100%;
+}

@@ -24,13 +24,14 @@ toogleDetails(index){
 //   quote.id=quoteLength+1;
 //   quote.postDate = new Date(quote.postDate)
 //   this.quotes.push(quote)
-// }
-   
+// }   
 
 viewQuote(isViewed,index){
   if (isViewed){
     let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].Author}? If Not please refresh the page.`)
+    if(toDelete){
       this.quotes.splice(index,1);
+    }
      
       };
  

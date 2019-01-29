@@ -1,6 +1,9 @@
 #showit{
   background-color: rgb(225, 217, 233);
-  width:600px;
-  height:140px;
+  width:700px;
+  height:180;
+  border:10px violet;
+  margin-left: auto;
+margin-right: auto;
 
 }
