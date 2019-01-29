@@ -1,3 +1,17 @@
-body{
+*{
   text-align:center;
+  background-image: url("https://www.desktopbackground.org/download/o/2011/01/30/150142_funny-quotes-wallpaper-backgrounds-hd-2702-hd-wallpapers-site_1920x1080_h.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100%;
 }
+
+/* .header{
+  background-image: url("https://i0.wp.com/camerajabber.com/wp-content/uploads/2017/04/How_to_photograph_a_reflection_amazing-736881_1280.jpg?resize=1280%2C640&ssl=1");
+  background-repeat: no-repeat;
+  color:white;
+  width:100%;
+  
+  background-size: cover;
+  height:600px;
+} */

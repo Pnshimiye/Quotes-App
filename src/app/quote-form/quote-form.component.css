@@ -8,3 +8,8 @@ body{
   margin-left: auto;
   margin-right:auto;
 }
+.form-control{
+  background-color: rgb(232, 212, 238);
+  margin-left:200px;
+  margin-right: 200px;
+}
