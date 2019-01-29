@@ -7,12 +7,13 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { QuoteFormComponent} from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
+    QuoteFormComponent,
   
     QuoteDetailsComponent,
     QuoteFormComponent
@@ -30,5 +31,8 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
+
 })
 export class AppModule { }
+

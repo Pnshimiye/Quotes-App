@@ -19,12 +19,12 @@ toogleDetails(index){
 }
 
 
-addNewQuote(quote){
-  let quoteLength = this.quotes.length;
-  quote.id=quoteLength+1;
-  quote.postDate = new Date(quote.postDate)
-  this.quotes.push(quote)
-}
+// addNewQuote(quote){
+//   let quoteLength = this.quotes.length;
+//   quote.id=quoteLength+1;
+//   quote.postDate = new Date(quote.postDate)
+//   this.quotes.push(quote)
+// }
    
 
 viewQuote(isViewed,index){
@@ -35,6 +35,7 @@ viewQuote(isViewed,index){
       };
  
     };
+
 
     downVote(isDownvoted,index){
       if (isDownvoted){       
@@ -53,6 +54,14 @@ viewQuote(isViewed,index){
   }
  
 }
+
+addNewQuote(quote){
+  let quoteLength = this.quotes.length;
+ 
+  // goal.completeDate = new Date(goal.completeDate)
+  this.quotes.push(quote)
+}
+
   constructor() { }
 
   ngOnInit() {
