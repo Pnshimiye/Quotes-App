@@ -1,0 +1,30 @@
+
+ <!-- <ul>
+    <li *ngFor= 'let quote of quotes'>{{quote.Author}}</li>
+ 
+  </ul>   -->
+  <div class="container">
+  <div style="text-align:center">
+
+      <div class="row">
+          <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+      </div>
+  <ul>
+    
+      <div *ngFor='let quote of quotes;let i = index'>
+          <li >{{quote.Author}}</li>
+          <button  (click)='toogleDetails(i)'>Toggle Quote Details</button>
+  
+          <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isViewed)= 'viewQuote($event,i)' (isDownvoted)= 'downVote($event,i)'></app-quote-details>
+          <div class="row">
+            
+        </div>
+      </div>
+  </ul>
+
+  </div>
+  <app-quote-form></app-quote-form>
+</div>
+
+ 
+
