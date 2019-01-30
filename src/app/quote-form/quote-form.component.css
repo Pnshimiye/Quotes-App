@@ -1,6 +1,6 @@
 body{
   text-align:center;
-  background-color:pink;
+  background-color:rgb(243, 221, 225);
 
 }
 .container-fluid{
@@ -14,5 +14,5 @@ body{
   margin-right: 200px;
 }
 #add{
-  background-color:rgb(227, 186, 246) 
+  background-color:rgb(216, 211, 218) 
 }
