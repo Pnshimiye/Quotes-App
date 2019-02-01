@@ -3,24 +3,31 @@
     <li *ngFor= 'let quote of quotes'>{{quote.Author}}</li>
  
   </ul>   -->
-  <div class="container">
+  
+  <div>
     <div style="text-align:center">
-        <div class="row">
-                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-        </div>         
+               
      
         <ul>
     
         <div  id= "display"*ngFor='let quote of quotes;let i = index'>
            <h4 id='authorcase'>{{quote.Author}}</h4>
            <button  (click)='toogleDetails(i)'>Toggle Quote Details</button>
+           
+           
   
            <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isViewed)= 'viewQuote($event,i)' (isDownvoted)= 'downVote($event,i)' (isUpvoted)= 'upVote($event,i)'></app-quote-details>
           
-        </div>
+        </div><br>
+        
+        <div class="row">
+            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>     
         </ul>
+        
 
   </div>
+  
 
 </div>
 

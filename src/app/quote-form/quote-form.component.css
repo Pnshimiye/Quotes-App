@@ -1,18 +1,21 @@
-body{
+/* body{
   text-align:center;
-  background-color:rgb(243, 221, 225);
+  background-color:rgb(243, 221, 225); */
 
-}
+/* } */
 .container-fluid{
   text-align: center;
   margin-left: auto;
   margin-right:auto;
 }
 .form-control{
-  background-color: rgb(216, 211, 218);
-  margin-left:250px;
-  margin-right: 200px;
+  background-color: white;
+  /* margin-left:250px;
+  margin-right: 200px; */
+  float: left;
 }
 #add{
-  background-color:rgb(216, 211, 218) 
+  background-color: white;
+  color:black; 
+  border:3px solid beige;
 }

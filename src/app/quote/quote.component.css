@@ -1,12 +1,21 @@
-#authorcase{
+/* #authorcase{
   background-color: rgb(189, 189, 189);;
   margin-left:200px;
   margin-right:200px;
-  border:3px rgb(83, 43, 73)
-}
+  border:5px rgb(83, 43, 73)
+} */
+
 .container{
   background-color: rgb(189, 189, 189);
 }
 /* #authorcase{
   background-color: azure;
   border:2px bisque; */
+#display{
+  background-color: white;
+  border:5px rgb(56, 55, 55);
+  border-radius:2px;
+  text-align: center;
+  margin-left:-30px;
+  color: black;
+}
